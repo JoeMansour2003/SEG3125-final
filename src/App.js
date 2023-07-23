@@ -25,6 +25,9 @@ const App = () => {
                 <Route path="/SEG-React">
                     <Home />
                 </Route>
+                <Route path="/SEG3125-final">
+                    <Home />
+                </Route>
                 <Route path="/ContactUs">
                     <ContactUs />
                 </Route>
