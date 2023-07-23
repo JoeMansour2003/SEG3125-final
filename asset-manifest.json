@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/SEG3125-final/static/css/main.3539f802.css",
+    "main.js": "/SEG3125-final/static/js/main.69b01d6e.js",
+    "static/js/787.aac9f782.chunk.js": "/SEG3125-final/static/js/787.aac9f782.chunk.js",
+    "static/media/kitchen1.png": "/SEG3125-final/static/media/kitchen1.4352b4d3696987ea2fb3.png",
+    "static/media/kitchen3.png": "/SEG3125-final/static/media/kitchen3.1d7327640c9401bd554e.png",
+    "static/media/House (4).png": "/SEG3125-final/static/media/House (4).baaf7fcbda62f1791331.png",
+    "static/media/interior2.jpg": "/SEG3125-final/static/media/interior2.b2657890c3d204e0dcb1.jpg",
+    "static/media/interior6.jpg": "/SEG3125-final/static/media/interior6.33ad110d3017d45f8adf.jpg",
+    "static/media/inpector.jpg": "/SEG3125-final/static/media/inpector.902f16d1e2c11673b226.jpg",
+    "static/media/washroom1.jpg": "/SEG3125-final/static/media/washroom1.e027f1c81b99d899d042.jpg",
+    "static/media/House (5).png": "/SEG3125-final/static/media/House (5).317ea1e6023051e08a98.png",
+    "static/media/team.jpg": "/SEG3125-final/static/media/team.596ed6c0d2e0431832e7.jpg",
+    "static/media/interior4.jpg": "/SEG3125-final/static/media/interior4.7085dd08d964418de71e.jpg",
+    "static/media/Sergio.png": "/SEG3125-final/static/media/Sergio.74125a022bd2458f8a67.png",
+    "static/media/Gus.png": "/SEG3125-final/static/media/Gus.039519166d5bad32ce9b.png",
+    "static/media/Customer Service.png": "/SEG3125-final/static/media/Customer Service.811249716bd1f9a16286.png",
+    "static/media/House (1).png": "/SEG3125-final/static/media/House (1).e1d1f415374c045989a0.png",
+    "static/media/House (3).png": "/SEG3125-final/static/media/House (3).0263b90c5fa5cc114f9a.png",
+    "static/media/House (2).png": "/SEG3125-final/static/media/House (2).8bfa0e6edd81bad1f4f6.png",
+    "static/media/washroom2.jpeg": "/SEG3125-final/static/media/washroom2.69e14390ca823d4e8b38.jpeg",
+    "static/media/logo.png": "/SEG3125-final/static/media/logo.1d81fb6c17f88396bd24.png",
+    "static/media/Home Inpector.jpg": "/SEG3125-final/static/media/Home Inpector.7d7f62014c3f2268c6d2.jpg",
+    "static/media/customer_service.jpg": "/SEG3125-final/static/media/customer_service.b0b2dc9b8edda0f58244.jpg",
+    "static/media/customer support representative assisting.webp": "/SEG3125-final/static/media/customer support representative assisting.8627d1a663861f2b85a7.webp",
+    "static/media/Number of Maintenance Reports Over The Years.png": "/SEG3125-final/static/media/Number of Maintenance Reports Over The Years.eb9f5665f76f0d7fa2ca.png",
+    "index.html": "/SEG3125-final/index.html",
+    "main.3539f802.css.map": "/SEG3125-final/static/css/main.3539f802.css.map",
+    "main.69b01d6e.js.map": "/SEG3125-final/static/js/main.69b01d6e.js.map",
+    "787.aac9f782.chunk.js.map": "/SEG3125-final/static/js/787.aac9f782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3539f802.css",
+    "static/js/main.69b01d6e.js"
+  ]
+}
