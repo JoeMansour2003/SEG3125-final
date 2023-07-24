@@ -1,5 +1,5 @@
-import React from "react";
 import { useHistory } from "react-router-dom";
+import React, { useRef } from "react"; // Import useRef
 import { useTranslation } from "react-i18next";
 
 const Step3 = () => {
@@ -22,9 +22,10 @@ const Step3 = () => {
     return (
         <div className="container text-center">
             <div className="row text-muted">
-                <div className="col" onClick={page1}>
+                <div className="col">
                     <div className="img-with-text">
                         <img
+                            onClick={page1}
                             src={require("../components/images/1-active.png")}
                             alt="step 1"
                         />
@@ -36,10 +37,11 @@ const Step3 = () => {
                 <div className="col">
                     <div className="img-with-text">
                         <img
+                            onClick={page2}
                             src={require("../components/images/2-active.png")}
                             alt="Step 2"
                         />
-                        <small>{t("step1.pre_approved")}</small>
+                        <small onClick={page2}>{t("step1.pre_approved")}</small>
                     </div>
                 </div>
                 <div className="col">
@@ -58,7 +60,7 @@ const Step3 = () => {
             {/* ######################################## */}
             <div className="container text-center">
                 <section>
-                    <form action="./ConfirmationPage">
+                    <form onSubmit={confirmationPage}>
                         <div className="col-md-6">
                             <br />
                             <br />

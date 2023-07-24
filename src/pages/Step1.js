@@ -1,3 +1,4 @@
+import React, { useRef } from "react"; // Import useRef
 import { useHistory } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +17,8 @@ const Step1 = () => {
     const page3 = () => {
         history.push("/Step3");
     };
+
+    const formRef = useRef(); // Create a ref for the form
 
     return (
         <div className="container text-center">
@@ -59,8 +62,9 @@ const Step1 = () => {
                 <div className="row align-items-center">
                     <form
                         className="row g-3 needs-validation"
-                        novalidate
-                        action="./Step2"
+                        noValidate
+                        ref={formRef}
+                        onSubmit={page2}
                     >
                         <div className="col-md">
                             <br />
@@ -106,7 +110,8 @@ const Step1 = () => {
                     <form
                         className="row g-3 needs-validation"
                         Validate
-                        action="./Step2"
+                        ref={formRef}
+                        onSubmit={page2}
                     >
                         <hr className="solid"></hr>
                         <div className="col-md-6">

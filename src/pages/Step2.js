@@ -1,4 +1,5 @@
 import { useHistory } from "react-router-dom";
+import React, { useRef } from "react"; // Import useRef
 import { useTranslation } from "react-i18next";
 
 const Step2 = () => {
@@ -16,13 +17,14 @@ const Step2 = () => {
     const page3 = () => {
         history.push("/Step3");
     };
-
+    const formRef = useRef(); // Create a ref for the form
     return (
         <div className="container text-center">
             <div className="row text-muted">
-                <div className="col" onClick={page1}>
+                <div className="col">
                     <div className="img-with-text">
                         <img
+                            onClick={page1}
                             src={require("../components/images/1-active.png")}
                             alt="step 1"
                         />
@@ -57,7 +59,11 @@ const Step2 = () => {
             <div className="container text-center">
                 <section className="section">
                     <h2>{t("step2.pre_approved")}</h2>
-                    <form className="row g-3 needs-validation" action="./Step3">
+                    <form
+                        className="row g-3 needs-validation"
+                        ref={formRef}
+                        onSubmit={page3}
+                    >
                         <div className="col-md-6">
                             <br />
                             <br />
