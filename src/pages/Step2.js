@@ -34,7 +34,7 @@ const Step2 = () => {
                 <div className="col">
                     <div className="img-with-text">
                         <img
-                            src={require("../components/images/2-Gray.png")}
+                            src={require("../components/images/2-active.png")}
                             alt="Step 2"
                         />
                         <small>{t("step1.pre_approved")}</small>
